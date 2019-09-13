@@ -11,7 +11,7 @@ body {
 
 .container {
   position: relative;
-  width: 550px;
+  width: 500px;
   background: pink;
   height: 32vh;
   text-align: center;
@@ -39,18 +39,18 @@ h1 {
 
 #roma {
   background-image: url("../img/roma.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 #copenaghen {
   background-image: url("../img/copenaghen.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 #tokyo {
   background-image: url("../img/tokyo.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
