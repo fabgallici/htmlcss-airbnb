@@ -29,6 +29,14 @@ body {
 
 }
 
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(204, 255, 204);
+}
+
 #roma {
   background-image: url("../img/roma.jpg");
   background-size: contain;
