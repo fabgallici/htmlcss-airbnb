@@ -1,18 +1,36 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
 
 body {
-  width:100%;
+  width:60%;
   margin: auto;
 }
 
 .container {
-  width: 100%;
+  width: 550px;
   background: pink;
   height: 33vh;
   text-align: center;
   border: 1px solid;
+}
+
+#roma {
+  background-image: url("../img/roma.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#copenaghen {
+  background-image: url("../img/copenaghen.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#tokyo {
+  background-image: url("../img/tokyo.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
