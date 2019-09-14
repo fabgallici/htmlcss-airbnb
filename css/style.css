@@ -4,18 +4,13 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 60%;
-  margin: auto;
-}
-
 /* copre quasi 100vh con 3 blocchi */
 .container {
   position: relative;
-  width: 50%;
+  width: 30%;
   min-width: 400px;
   height: 32vh;
-  margin: 8px 0;
+  margin: 8px auto;
   /* background usato per sfondo img vedi sotto bg #città */
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,11 +27,14 @@ body {
 }
 
 /* scritta città centrata responsive */
-h1 {
+.title {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.title h1 {
   color: rgb(204, 255, 204);
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 2.2em;
