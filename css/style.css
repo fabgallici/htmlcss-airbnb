@@ -54,7 +54,7 @@
 }
 
 /* eventi mouse over */
-.container:hover h1 {
+.container:hover .title h1 {
   text-shadow: 5px 5px rgb(51, 51, 51);
   cursor: pointer;
 }
