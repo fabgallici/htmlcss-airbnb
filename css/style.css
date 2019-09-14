@@ -43,12 +43,12 @@ h1 {
 }
 
 /* foto background cittò */
-#roma {
-  background-image: url("../img/roma.jpg");
+#berlino {
+  background-image: url("../img/berlino.jpg");
 }
 
-#copenaghen {
-  background-image: url("../img/copenaghen.jpg");
+#helsinki {
+  background-image: url("../img/helsinki.jpg");
 }
 
 #tokyo {
@@ -56,6 +56,11 @@ h1 {
 }
 
 /* eventi mouse over */
+.container:hover {
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
 .container:hover h1 {
   text-shadow: 5px 5px rgb(51, 51, 51);
   cursor: pointer;
@@ -63,4 +68,23 @@ h1 {
 
 .container:hover .layover {
   background-color: rgba(0, 0, 0, 0);
+}
+
+.container:hover#berlino {
+  background-image: url("../img/berlinoC.jpg");
+}
+.container:hover#helsinki {
+  background-image: url("../img/helsinkiC.jpg");
+}
+.container:hover#tokyo {
+  background-image: url("../img/tokyoC.jpg");
+}
+
+.container:hover#berlino h1, .container:hover#helsinki h1, .container:hover#tokyo h1 {
+  font-size: 1.7em;
+  text-shadow: 2px 2px rgb(51, 51, 51);
+}
+
+.title:hover {
+  font-size: 1.1em;
 }
